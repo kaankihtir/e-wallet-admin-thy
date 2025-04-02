@@ -24,13 +24,8 @@ export default function DashboardsPage() {
 
   return (
     <div className="flex-1 space-y-4 p-4 md:p-8 pt-6">
-      <div className="flex items-center justify-between">
-        <div className="space-y-1">
-          <h2 className="text-2xl font-semibold tracking-tight">TKPAY Dashboards</h2>
-          <p className="text-sm text-muted-foreground">
-            Comprehensive analytics and reporting for TKPAY operations
-          </p>
-        </div>
+      <div className="flex items-center justify-between space-y-2">
+        <h2 className="text-3xl font-bold tracking-tight">Dashboards</h2>
         <div className="flex items-center space-x-2">
           <DateRangePicker date={dateRange} setDate={setDateRange} />
           <ExportButton />
