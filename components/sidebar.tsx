@@ -64,7 +64,6 @@ export function Sidebar({ isCollapsed }: SidebarProps) {
   // Update menu items to English
   const navItems: NavItem[] = [
     { href: "/", icon: BarChart3, title: "Dashboard" },
-    { href: "/dashboards", icon: BarChart3, title: "Dashboards" },
     { href: "/customers", icon: Users, title: "Customers" },
     { href: "/opportunities", icon: Gift, title: "Opportunities" },
     { href: "/transactions", icon: ArrowLeftRight, title: "Transactions" },
